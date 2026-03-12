@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Replace 'best.pt' with the actual name of your weight file inside ai_engine
-model = YOLO('ai_engine/model/best.pt')
+model = YOLO('model/best.pt')
 
 @app.route('/')
 def home():
